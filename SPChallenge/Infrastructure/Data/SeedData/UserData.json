@@ -1,0 +1,62 @@
+[
+  {
+    "UserName": "Admin",
+    "FirstName": "Admin",
+    "LastName": "Admin",
+    "Gender": 1,
+    "MobileNo": "0790000000",
+    "Email": "Admin@Admin.Com",
+    "BirthDate": "2000-11-08T07:06:38.126Z",
+    "Address": "Amman",
+    "Status": 1,
+    "PasswordTries": 0,
+    "UserType": 1,
+    "Image": "{{BaseURL}}/api/Image?ImageName=USER.jpg&ImageType=5",
+    "ImageName": "USER.jpg"
+  },
+  {
+    "UserName": "Player",
+    "FirstName": "Player",
+    "LastName": "Player",
+    "Gender": 1,
+    "MobileNo": "0791111111",
+    "Email": "Player@Player.Com",
+    "BirthDate": "2000-11-08T07:06:38.126Z",
+    "Address": "Amman",
+    "Status": 1,
+    "PasswordTries": 0,
+    "UserType": 2,
+    "Image": "{{BaseURL}}/api/Image?ImageName=USER.jpg&ImageType=5",
+    "ImageName": "USER.jpg"
+  },
+  {
+    "UserName": "Player1",
+    "FirstName": "Player1",
+    "LastName": "Player1",
+    "Gender": 1,
+    "MobileNo": "0792222222",
+    "Email": "Player@Player.Com",
+    "BirthDate": "2000-11-08T07:06:38.126Z",
+    "Address": "Amman",
+    "Status": 1,
+    "PasswordTries": 0,
+    "UserType": 2,
+    "Image": "{{BaseURL}}/api/Image?ImageName=USER.jpg&ImageType=5",
+    "ImageName": "USER.jpg"
+  },
+  {
+    "UserName": "Player2",
+    "FirstName": "Player2",
+    "LastName": "Player2",
+    "Gender": 1,
+    "MobileNo": "0793333333",
+    "Email": "Player@Player.Com",
+    "BirthDate": "2000-11-08T07:06:38.126Z",
+    "Address": "Amman",
+    "Status": 1,
+    "PasswordTries": 0,
+    "UserType": 2,
+    "Image": "{{BaseURL}}/api/Image?ImageName=USER.jpg&ImageType=5",
+    "ImageName": "USER.jpg"
+  }
+]

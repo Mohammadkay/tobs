@@ -1,0 +1,10 @@
+[
+  {
+    "Name": "Test Match",
+    "Capacity": 20,
+    "Gender": 1,
+    "AgeFrom": 15,
+    "AgeTo": 30,
+    "Price": 5.0
+  }
+]

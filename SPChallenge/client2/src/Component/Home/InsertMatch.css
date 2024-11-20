@@ -1,0 +1,225 @@
+.form-container {
+    max-width: 400px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+  }
+  
+  
+  
+  input:focus {
+    border-color: #28a745;
+  }
+  
+  input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+    transition: border-color 0.3s ease-in-out;
+  }
+  
+  /* Add styles for required fields */
+  .input[required] {
+    border: 1px solid red;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 5px;
+  }
+  
+  .image-upload {
+    margin-bottom: 20px;
+  }
+
+  button {
+    background-color: #28a745;
+    color: #fff;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #218838;
+  }
+
+  .gender-dropdown-container {
+    margin: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select {
+    width: 200px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  .selected-gender {
+    margin-top: 10px;
+    color: #007bff; /* Blue color for the selected gender text */
+    font-weight: bold;
+  }
+
+  .image-preview{
+    height: 50px;
+    width: 50px;
+  }
+
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+  }
+  
+  .popup-content {
+    text-align: center;
+  }
+  
+  .popup button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    opacity: 5;
+  }
+
+  .search-container {
+    position: relative;
+    width: 100%;
+}
+
+.search-input {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.search-input input {
+    flex: 1;
+    padding: 8px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+}
+
+.search-input button {
+    background: none;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.search-dropdown {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    z-index: 999;
+}
+
+.search-item {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.search-item:hover {
+    background-color: #f0f0f0;
+}
+.checkbox-container {
+  display: flex;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent options from wrapping */
+}
+
+.checkbox-container > div {
+  margin-right: 10px; /* Add some spacing between options */
+}
+
+
+.checkbox-container .checkbox-custom {
+  position: relative;
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  margin-right: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: transparent;
+  border: 2px solid #000;
+  border-radius: 2px;
+  display: none; /* Initially hidden */
+}
+
+.checkbox-container input[type="checkbox"]:checked + .checkbox-custom .checkmark {
+  display: block; /* Display checkmark when checkbox is checked */
+}
+
+.checkbox-container label {
+  font-weight: normal;
+}
+
+.pagination-container {
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent pagination buttons from wrapping */
+}
+
+.pagination-button {
+  display: inline-block;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination-button:hover {
+  background-color: #f0f0f0;
+}

@@ -1,0 +1,28 @@
+[
+  {
+    "Name": "Test Stade1",
+    "MobileNo": "0790000000",
+    "Email": "TestStade1@Test.com",
+    "Address": "Amman",
+    "Status": 1,
+    "Longitude": "100000",
+    "Latitude": "100000",
+    "Capacity": 20,
+    "StadeType": 1,
+    "Image": "{{BaseURL}}/api/Image?ImageName=Stade.jpg&ImageType=5",
+    "ImageName": "USER.jpg"
+  },
+  {
+    "Name": "Test Stade2",
+    "MobileNo": "0791111111",
+    "Email": "TestStade2@Test.com",
+    "Address": "Amman",
+    "Status": 1,
+    "Longitude": "100000",
+    "Latitude": "100000",
+    "Capacity": 20,
+    "StadeType": 2,
+    "Image": "{{BaseURL}}/api/Image?ImageName=Stade.jpg&ImageType=5",
+    "ImageName": "USER.jpg"
+  }
+]

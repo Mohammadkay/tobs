@@ -1,0 +1,53 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="TempFolder\Images\StadeService\**" />
+    <Compile Remove="TempFolder\Images\Stade\**" />
+    <Compile Remove="TempFolder\Images\UserProfileImage\**" />
+    <Content Remove="TempFolder\Images\StadeService\**" />
+    <Content Remove="TempFolder\Images\Stade\**" />
+    <Content Remove="TempFolder\Images\UserProfileImage\**" />
+    <EmbeddedResource Remove="TempFolder\Images\StadeService\**" />
+    <EmbeddedResource Remove="TempFolder\Images\Stade\**" />
+    <EmbeddedResource Remove="TempFolder\Images\UserProfileImage\**" />
+    <None Remove="TempFolder\Images\StadeService\**" />
+    <None Remove="TempFolder\Images\Stade\**" />
+    <None Remove="TempFolder\Images\UserProfileImage\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="seri-log.config.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="7.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="7.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.IdentityModel.Tokens" Version="6.32.2" />
+    <PackageReference Include="Serilog.AspNetCore" Version="8.0.1" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.32.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
+    <ProjectReference Include="..\Service\Service.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="TempFolder\Log\" />
+  </ItemGroup>
+
+</Project>

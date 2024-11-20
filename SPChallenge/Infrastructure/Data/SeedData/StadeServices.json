@@ -1,0 +1,27 @@
+[
+  {
+    "Name": "Water",
+    "Image": "{{BaseURL}}/api/Image?ImageName=Water.png&ImageType=5",
+    "ImageName": "Water.png"
+  },
+  {
+    "Name": "Parking",
+    "Image": "{{BaseURL}}/api/Image?ImageName=Water.png&ImageType=5",
+    "ImageName": "Water.png"
+  },
+  {
+    "Name": "Bathroom",
+    "Image": "{{BaseURL}}/api/Image?ImageName=Water.png&ImageType=5",
+    "ImageName": "Water.png"
+  },
+  {
+    "Name": "Shower",
+    "Image": "{{BaseURL}}/api/Image?ImageName=Water.png&ImageType=5",
+    "ImageName": "Water.png"
+  },
+  {
+    "Name": "Cafeteria",
+    "Image": "{{BaseURL}}/api/Image?ImageName=Water.png&ImageType=5",
+    "ImageName": "Water.png"
+  }
+]
